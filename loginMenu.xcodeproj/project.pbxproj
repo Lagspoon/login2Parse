@@ -22,6 +22,18 @@
 		0904A3F1182AF27A00FD9D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3D0182AF27A00FD9D5D /* UIKit.framework */; };
 		0904A3F9182AF27A00FD9D5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0904A3F7182AF27A00FD9D5D /* InfoPlist.strings */; };
 		0904A3FB182AF27A00FD9D5D /* loginMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A3FA182AF27A00FD9D5D /* loginMenuTests.m */; };
+		0904A405182AF29D00FD9D5D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A404182AF29D00FD9D5D /* Parse.framework */; };
+		0904A407182AF38900FD9D5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A406182AF38900FD9D5D /* AudioToolbox.framework */; };
+		0904A409182AF39200FD9D5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A408182AF39200FD9D5D /* CFNetwork.framework */; };
+		0904A40B182AF3A100FD9D5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A40A182AF3A100FD9D5D /* CoreLocation.framework */; };
+		0904A40D182AF3B100FD9D5D /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A40C182AF3B100FD9D5D /* libz.1.1.3.dylib */; };
+		0904A40F182AF3BD00FD9D5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */; };
+		0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A410182AF3C700FD9D5D /* QuartzCore.framework */; };
+		0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A412182AF3D000FD9D5D /* Security.framework */; };
+		0904A415182AF3D800FD9D5D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A414182AF3D800FD9D5D /* StoreKit.framework */; };
+		0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */; };
+		0904A41A182AFAB500FD9D5D /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A419182AFAB500FD9D5D /* LOLoginVC.m */; };
+		0904A41D182AFC3B00FD9D5D /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,20 @@
 		0904A3F6182AF27A00FD9D5D /* loginMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginMenuTests-Info.plist"; sourceTree = "<group>"; };
 		0904A3F8182AF27A00FD9D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0904A3FA182AF27A00FD9D5D /* loginMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginMenuTests.m; sourceTree = "<group>"; };
+		0904A404182AF29D00FD9D5D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0904A406182AF38900FD9D5D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0904A408182AF39200FD9D5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0904A40A182AF3A100FD9D5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0904A40C182AF3B100FD9D5D /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0904A410182AF3C700FD9D5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0904A412182AF3D000FD9D5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0904A414182AF3D800FD9D5D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0904A418182AFAB500FD9D5D /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLoginVC.h; sourceTree = "<group>"; };
+		0904A419182AFAB500FD9D5D /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLoginVC.m; sourceTree = "<group>"; };
+		0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORegisterVC.h; sourceTree = "<group>"; };
+		0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORegisterVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +88,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */,
+				0904A415182AF3D800FD9D5D /* StoreKit.framework in Frameworks */,
+				0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */,
+				0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */,
+				0904A40F182AF3BD00FD9D5D /* MobileCoreServices.framework in Frameworks */,
+				0904A40D182AF3B100FD9D5D /* libz.1.1.3.dylib in Frameworks */,
+				0904A40B182AF3A100FD9D5D /* CoreLocation.framework in Frameworks */,
+				0904A409182AF39200FD9D5D /* CFNetwork.framework in Frameworks */,
+				0904A407182AF38900FD9D5D /* AudioToolbox.framework in Frameworks */,
 				0904A3CF182AF27A00FD9D5D /* CoreGraphics.framework in Frameworks */,
 				0904A3D1182AF27A00FD9D5D /* UIKit.framework in Frameworks */,
+				0904A405182AF29D00FD9D5D /* Parse.framework in Frameworks */,
 				0904A3CD182AF27A00FD9D5D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +139,16 @@
 		0904A3CB182AF27A00FD9D5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */,
+				0904A414182AF3D800FD9D5D /* StoreKit.framework */,
+				0904A412182AF3D000FD9D5D /* Security.framework */,
+				0904A410182AF3C700FD9D5D /* QuartzCore.framework */,
+				0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */,
+				0904A40C182AF3B100FD9D5D /* libz.1.1.3.dylib */,
+				0904A40A182AF3A100FD9D5D /* CoreLocation.framework */,
+				0904A408182AF39200FD9D5D /* CFNetwork.framework */,
+				0904A406182AF38900FD9D5D /* AudioToolbox.framework */,
+				0904A404182AF29D00FD9D5D /* Parse.framework */,
 				0904A3CC182AF27A00FD9D5D /* Foundation.framework */,
 				0904A3CE182AF27A00FD9D5D /* CoreGraphics.framework */,
 				0904A3D0182AF27A00FD9D5D /* UIKit.framework */,
@@ -118,6 +164,10 @@
 				0904A3DC182AF27A00FD9D5D /* LOAppDelegate.m */,
 				0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */,
 				0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */,
+				0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */,
+				0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */,
+				0904A418182AFAB500FD9D5D /* LOLoginVC.h */,
+				0904A419182AFAB500FD9D5D /* LOLoginVC.m */,
 				0904A3E4182AF27A00FD9D5D /* LOViewController.h */,
 				0904A3E5182AF27A00FD9D5D /* LOViewController.m */,
 				0904A3E7182AF27A00FD9D5D /* Images.xcassets */,
@@ -257,6 +307,8 @@
 				0904A3D9182AF27A00FD9D5D /* main.m in Sources */,
 				0904A3DD182AF27A00FD9D5D /* LOAppDelegate.m in Sources */,
 				0904A3E6182AF27A00FD9D5D /* LOViewController.m in Sources */,
+				0904A41A182AFAB500FD9D5D /* LOLoginVC.m in Sources */,
+				0904A41D182AFC3B00FD9D5D /* LORegisterVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +445,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/olivier/Les\\ petits\\ projets\\ d\\ Olivier/Projets/loginMenu",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "loginMenu/loginMenu-Prefix.pch";
 				INFOPLIST_FILE = "loginMenu/loginMenu-Info.plist";
@@ -406,6 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/olivier/Les\\ petits\\ projets\\ d\\ Olivier/Projets/loginMenu",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "loginMenu/loginMenu-Prefix.pch";
 				INFOPLIST_FILE = "loginMenu/loginMenu-Info.plist";
