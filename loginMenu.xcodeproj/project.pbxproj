@@ -30,7 +30,6 @@
 		0904A40F182AF3BD00FD9D5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */; };
 		0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A410182AF3C700FD9D5D /* QuartzCore.framework */; };
 		0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A412182AF3D000FD9D5D /* Security.framework */; };
-		0904A415182AF3D800FD9D5D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A414182AF3D800FD9D5D /* StoreKit.framework */; };
 		0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */; };
 		0904A41A182AFAB500FD9D5D /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A419182AFAB500FD9D5D /* LOLoginVC.m */; };
 		0904A41D182AFC3B00FD9D5D /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */; };
@@ -75,12 +74,15 @@
 		0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0904A410182AF3C700FD9D5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0904A412182AF3D000FD9D5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		0904A414182AF3D800FD9D5D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0904A418182AFAB500FD9D5D /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLoginVC.h; sourceTree = "<group>"; };
 		0904A419182AFAB500FD9D5D /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLoginVC.m; sourceTree = "<group>"; };
 		0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORegisterVC.h; sourceTree = "<group>"; };
 		0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORegisterVC.m; sourceTree = "<group>"; };
+		093A0CBD182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		093A0CBE182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		093A0CBF182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		093A0CC0182FCE3100093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */,
-				0904A415182AF3D800FD9D5D /* StoreKit.framework in Frameworks */,
 				0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */,
 				0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */,
 				0904A40F182AF3BD00FD9D5D /* MobileCoreServices.framework in Frameworks */,
@@ -120,6 +121,8 @@
 		0904A3C0182AF27A00FD9D5D = {
 			isa = PBXGroup;
 			children = (
+				0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */,
+				0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */,
 				0904A3D2182AF27A00FD9D5D /* loginMenu */,
 				0904A3F4182AF27A00FD9D5D /* loginMenuTests */,
 				0904A3CB182AF27A00FD9D5D /* Frameworks */,
@@ -140,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */,
-				0904A414182AF3D800FD9D5D /* StoreKit.framework */,
 				0904A412182AF3D000FD9D5D /* Security.framework */,
 				0904A410182AF3C700FD9D5D /* QuartzCore.framework */,
 				0904A40E182AF3BD00FD9D5D /* MobileCoreServices.framework */,
@@ -162,15 +164,12 @@
 			children = (
 				0904A3DB182AF27A00FD9D5D /* LOAppDelegate.h */,
 				0904A3DC182AF27A00FD9D5D /* LOAppDelegate.m */,
-				0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */,
-				0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */,
 				0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */,
 				0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */,
 				0904A418182AFAB500FD9D5D /* LOLoginVC.h */,
 				0904A419182AFAB500FD9D5D /* LOLoginVC.m */,
 				0904A3E4182AF27A00FD9D5D /* LOViewController.h */,
 				0904A3E5182AF27A00FD9D5D /* LOViewController.m */,
-				0904A3E7182AF27A00FD9D5D /* Images.xcassets */,
 				0904A3D3182AF27A00FD9D5D /* Supporting Files */,
 			);
 			path = loginMenu;
@@ -180,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				0904A3D4182AF27A00FD9D5D /* loginMenu-Info.plist */,
+				0904A3E7182AF27A00FD9D5D /* Images.xcassets */,
 				0904A3D5182AF27A00FD9D5D /* InfoPlist.strings */,
 				0904A3D8182AF27A00FD9D5D /* main.m */,
 				0904A3DA182AF27A00FD9D5D /* loginMenu-Prefix.pch */,
@@ -253,6 +253,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Olivier Delecueillerie";
 				TargetAttributes = {
+					0904A3C8182AF27A00FD9D5D = {
+						DevelopmentTeam = SHPQ7VY3T5;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
 					0904A3EC182AF27A00FD9D5D = {
 						TestTargetID = 0904A3C8182AF27A00FD9D5D;
 					};
@@ -265,6 +273,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 0904A3C0182AF27A00FD9D5D;
 			productRefGroup = 0904A3CA182AF27A00FD9D5D /* Products */;
@@ -335,6 +344,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0904A3D6182AF27A00FD9D5D /* en */,
+				093A0CBF182FCE3000093ABD /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -343,22 +353,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				0904A3DF182AF27A00FD9D5D /* Base */,
+				093A0CBD182FCE3000093ABD /* fr */,
 			);
 			name = Main_iPhone.storyboard;
+			path = loginMenu;
 			sourceTree = "<group>";
 		};
 		0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0904A3E2182AF27A00FD9D5D /* Base */,
+				093A0CBE182FCE3000093ABD /* fr */,
 			);
 			name = Main_iPad.storyboard;
+			path = loginMenu;
 			sourceTree = "<group>";
 		};
 		0904A3F7182AF27A00FD9D5D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0904A3F8182AF27A00FD9D5D /* en */,
+				093A0CC0182FCE3100093ABD /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -535,6 +550,7 @@
 				0904A400182AF27A00FD9D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0904A401182AF27A00FD9D5D /* Build configuration list for PBXNativeTarget "loginMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +559,7 @@
 				0904A403182AF27A00FD9D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

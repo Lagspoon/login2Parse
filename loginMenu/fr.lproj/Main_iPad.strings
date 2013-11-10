@@ -1,0 +1,33 @@
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "6h0-1b-ydN"; */
+"6h0-1b-ydN.normalTitle" = "Inscrivez-vous";
+
+/* Class = "IBUINavigationItem"; title = "Sign Up"; ObjectID = "CVZ-CT-Rqz"; */
+"CVZ-CT-Rqz.title" = "Inscrivez-vous";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "EoP-az-NsC"; */
+"EoP-az-NsC.normalTitle" = "Inscrivez-vous";
+
+/* Class = "IBUINavigationItem"; title = "Log In"; ObjectID = "FqH-NO-Gdi"; */
+"FqH-NO-Gdi.title" = "Identifiez-vous";
+
+/* Class = "IBUIButton"; normalTitle = "Log In"; ObjectID = "Mec-es-ahL"; */
+"Mec-es-ahL.normalTitle" = "Identifiez-vous";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "OVe-Ad-BrD"; */
+"OVe-Ad-BrD.placeholder" = "Mot de passe";
+
+/* Class = "IBUITextField"; placeholder = "User"; ObjectID = "Okc-4O-yhz"; */
+"Okc-4O-yhz.placeholder" = "Utilisateur";
+
+/* Class = "IBUITextField"; placeholder = "User"; ObjectID = "Oz7-aO-lFN"; */
+"Oz7-aO-lFN.placeholder" = "Utilisateur";
+
+/* Class = "IBUINavigationItem"; title = "Logged"; ObjectID = "UGw-4H-rKb"; */
+"UGw-4H-rKb.title" = "Identifié";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "WQD-CB-PQb"; */
+"WQD-CB-PQb.placeholder" = "Mot de passe";
+
+/* Class = "IBUILabel"; text = "New user?"; ObjectID = "mWK-Ac-ss1"; */
+"mWK-Ac-ss1.text" = "Créer un compte?";

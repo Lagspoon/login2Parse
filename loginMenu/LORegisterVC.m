@@ -60,8 +60,6 @@
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
-#warning to complete
-//            [NSUserDefaults standardUserDefaults] setObject:<#(id)#> forKey:@"userInfo";
 
             //The registration was succesful, go to the wall
             [self performSegueWithIdentifier:@"SignupSuccesful" sender:self];

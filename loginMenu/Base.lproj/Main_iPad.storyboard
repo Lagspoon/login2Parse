@@ -7,7 +7,6 @@
         <!--Navigation Controller-->
         <scene sceneID="6ft-xH-aqf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfs-iZ-hd3" sceneMemberID="firstResponder"/>
                 <navigationController id="8Yx-w9-DAy" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="black" id="Rbm-bu-Jq6">
@@ -18,6 +17,7 @@
                         <segue destination="VgV-oq-rPG" kind="relationship" relationship="rootViewController" id="YwO-5V-MkS"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jfs-iZ-hd3" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-225" y="-48"/>
         </scene>
@@ -56,15 +56,15 @@
                                     <action selector="logInPressed:" destination="VgV-oq-rPG" eventType="touchUpInside" id="jHs-vA-UFq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="New user?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mWK-Ac-ss1">
-                                <rect key="frame" x="309" y="244" width="82" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="New user?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mWK-Ac-ss1">
+                                <rect key="frame" x="222" y="438" width="324" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoP-az-NsC">
-                                <rect key="frame" x="412" y="236" width="81" height="37"/>
+                                <rect key="frame" x="41" y="495" width="687" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Sign Up">
@@ -91,7 +91,6 @@
         <!--View Controller - Logged-->
         <scene sceneID="TXE-Hb-BMY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aoD-dX-SEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="pmz-UA-Uwt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xpC-dr-6fi"/>
@@ -104,6 +103,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Logged" id="UGw-4H-rKb"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoD-dX-SEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2515" y="-955"/>
         </scene>
@@ -163,6 +163,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="j13-KS-e7o"/>
+        <segue reference="4Ze-rf-axy"/>
     </inferredMetricsTieBreakers>
 </document>

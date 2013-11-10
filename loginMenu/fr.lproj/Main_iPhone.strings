@@ -1,0 +1,33 @@
+
+/* Class = "IBUINavigationItem"; title = "Sign Up"; ObjectID = "1TY-Mx-mkE"; */
+"1TY-Mx-mkE.title" = "S'enregistrer";
+
+/* Class = "IBUITextField"; placeholder = "User"; ObjectID = "5TM-XX-4OG"; */
+"5TM-XX-4OG.placeholder" = "Utilisateur";
+
+/* Class = "IBUINavigationItem"; title = "Log In"; ObjectID = "BZG-Q6-B2y"; */
+"BZG-Q6-B2y.title" = "Connexion";
+
+/* Class = "IBUIButton"; normalTitle = "Log In"; ObjectID = "DfR-Ky-gjV"; */
+"DfR-Ky-gjV.normalTitle" = "Connexion";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "Frk-nJ-52i"; */
+"Frk-nJ-52i.placeholder" = "Mot de passe";
+
+/* Class = "IBUILabel"; text = "New user?"; ObjectID = "KFh-yS-1Zo"; */
+"KFh-yS-1Zo.text" = "Créer un compte?";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "Mij-cC-Yec"; */
+"Mij-cC-Yec.placeholder" = "Mot de passe";
+
+/* Class = "IBUITextField"; placeholder = "User"; ObjectID = "b9b-pP-1LC"; */
+"b9b-pP-1LC.placeholder" = "Utilisateur";
+
+/* Class = "IBUINavigationItem"; title = "Logged"; ObjectID = "dNs-XK-rOG"; */
+"dNs-XK-rOG.title" = "Connecté";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "n2K-N9-4Jd"; */
+"n2K-N9-4Jd.normalTitle" = "S'enregistrer";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Up"; ObjectID = "uGW-pj-aLH"; */
+"uGW-pj-aLH.normalTitle" = "S'enregistrer";
