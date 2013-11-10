@@ -10,13 +10,8 @@
 		0904A3CD182AF27A00FD9D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3CC182AF27A00FD9D5D /* Foundation.framework */; };
 		0904A3CF182AF27A00FD9D5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3CE182AF27A00FD9D5D /* CoreGraphics.framework */; };
 		0904A3D1182AF27A00FD9D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3D0182AF27A00FD9D5D /* UIKit.framework */; };
-		0904A3D7182AF27A00FD9D5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0904A3D5182AF27A00FD9D5D /* InfoPlist.strings */; };
-		0904A3D9182AF27A00FD9D5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A3D8182AF27A00FD9D5D /* main.m */; };
-		0904A3DD182AF27A00FD9D5D /* LOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A3DC182AF27A00FD9D5D /* LOAppDelegate.m */; };
 		0904A3E0182AF27A00FD9D5D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */; };
 		0904A3E3182AF27A00FD9D5D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */; };
-		0904A3E6182AF27A00FD9D5D /* LOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A3E5182AF27A00FD9D5D /* LOViewController.m */; };
-		0904A3E8182AF27A00FD9D5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0904A3E7182AF27A00FD9D5D /* Images.xcassets */; };
 		0904A3EF182AF27A00FD9D5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3EE182AF27A00FD9D5D /* XCTest.framework */; };
 		0904A3F0182AF27A00FD9D5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3CC182AF27A00FD9D5D /* Foundation.framework */; };
 		0904A3F1182AF27A00FD9D5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A3D0182AF27A00FD9D5D /* UIKit.framework */; };
@@ -31,8 +26,11 @@
 		0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A410182AF3C700FD9D5D /* QuartzCore.framework */; };
 		0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A412182AF3D000FD9D5D /* Security.framework */; };
 		0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */; };
-		0904A41A182AFAB500FD9D5D /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A419182AFAB500FD9D5D /* LOLoginVC.m */; };
-		0904A41D182AFC3B00FD9D5D /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */; };
+		093A0CD8182FD9B700093ABD /* LOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CD0182FD9B700093ABD /* LOAppDelegate.m */; };
+		093A0CD9182FD9B700093ABD /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CD2182FD9B700093ABD /* LOLoginVC.m */; };
+		093A0CDA182FD9B700093ABD /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CD4182FD9B700093ABD /* LORegisterVC.m */; };
+		093A0CDC182FD9DB00093ABD /* LOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CDB182FD9DB00093ABD /* LOViewController.m */; };
+		093A0CE1182FDA9900093ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CDF182FDA9900093ABD /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,17 +48,8 @@
 		0904A3CC182AF27A00FD9D5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0904A3CE182AF27A00FD9D5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0904A3D0182AF27A00FD9D5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0904A3D4182AF27A00FD9D5D /* loginMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginMenu-Info.plist"; sourceTree = "<group>"; };
-		0904A3D6182AF27A00FD9D5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0904A3D8182AF27A00FD9D5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0904A3DA182AF27A00FD9D5D /* loginMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "loginMenu-Prefix.pch"; sourceTree = "<group>"; };
-		0904A3DB182AF27A00FD9D5D /* LOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOAppDelegate.h; sourceTree = "<group>"; };
-		0904A3DC182AF27A00FD9D5D /* LOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOAppDelegate.m; sourceTree = "<group>"; };
 		0904A3DF182AF27A00FD9D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		0904A3E2182AF27A00FD9D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		0904A3E4182AF27A00FD9D5D /* LOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOViewController.h; sourceTree = "<group>"; };
-		0904A3E5182AF27A00FD9D5D /* LOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOViewController.m; sourceTree = "<group>"; };
-		0904A3E7182AF27A00FD9D5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0904A3ED182AF27A00FD9D5D /* loginMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0904A3EE182AF27A00FD9D5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0904A3F6182AF27A00FD9D5D /* loginMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginMenuTests-Info.plist"; sourceTree = "<group>"; };
@@ -75,14 +64,19 @@
 		0904A410182AF3C700FD9D5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0904A412182AF3D000FD9D5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		0904A418182AFAB500FD9D5D /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLoginVC.h; sourceTree = "<group>"; };
-		0904A419182AFAB500FD9D5D /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLoginVC.m; sourceTree = "<group>"; };
-		0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORegisterVC.h; sourceTree = "<group>"; };
-		0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORegisterVC.m; sourceTree = "<group>"; };
 		093A0CBD182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		093A0CBE182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPad.strings; sourceTree = "<group>"; };
-		093A0CBF182FCE3000093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		093A0CC0182FCE3100093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		093A0CCF182FD9B700093ABD /* LOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOAppDelegate.h; sourceTree = "<group>"; };
+		093A0CD0182FD9B700093ABD /* LOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOAppDelegate.m; sourceTree = "<group>"; };
+		093A0CD1182FD9B700093ABD /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLoginVC.h; sourceTree = "<group>"; };
+		093A0CD2182FD9B700093ABD /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLoginVC.m; sourceTree = "<group>"; };
+		093A0CD3182FD9B700093ABD /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORegisterVC.h; sourceTree = "<group>"; };
+		093A0CD4182FD9B700093ABD /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORegisterVC.m; sourceTree = "<group>"; };
+		093A0CD5182FD9B700093ABD /* LOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOViewController.h; sourceTree = "<group>"; };
+		093A0CDB182FD9DB00093ABD /* LOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOViewController.m; sourceTree = "<group>"; };
+		093A0CDE182FDA9900093ABD /* loginMenu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "loginMenu-Prefix.pch"; path = "loginMenu/loginMenu-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		093A0CDF182FDA9900093ABD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = loginMenu/main.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +115,11 @@
 		0904A3C0182AF27A00FD9D5D = {
 			isa = PBXGroup;
 			children = (
+				093A0CDE182FDA9900093ABD /* loginMenu-Prefix.pch */,
+				093A0CDF182FDA9900093ABD /* main.m */,
 				0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */,
+				093A0CCA182FD9B700093ABD /* module */,
 				0904A3E1182AF27A00FD9D5D /* Main_iPad.storyboard */,
-				0904A3D2182AF27A00FD9D5D /* loginMenu */,
 				0904A3F4182AF27A00FD9D5D /* loginMenuTests */,
 				0904A3CB182AF27A00FD9D5D /* Frameworks */,
 				0904A3CA182AF27A00FD9D5D /* Products */,
@@ -159,34 +155,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0904A3D2182AF27A00FD9D5D /* loginMenu */ = {
-			isa = PBXGroup;
-			children = (
-				0904A3DB182AF27A00FD9D5D /* LOAppDelegate.h */,
-				0904A3DC182AF27A00FD9D5D /* LOAppDelegate.m */,
-				0904A41B182AFC3B00FD9D5D /* LORegisterVC.h */,
-				0904A41C182AFC3B00FD9D5D /* LORegisterVC.m */,
-				0904A418182AFAB500FD9D5D /* LOLoginVC.h */,
-				0904A419182AFAB500FD9D5D /* LOLoginVC.m */,
-				0904A3E4182AF27A00FD9D5D /* LOViewController.h */,
-				0904A3E5182AF27A00FD9D5D /* LOViewController.m */,
-				0904A3D3182AF27A00FD9D5D /* Supporting Files */,
-			);
-			path = loginMenu;
-			sourceTree = "<group>";
-		};
-		0904A3D3182AF27A00FD9D5D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0904A3D4182AF27A00FD9D5D /* loginMenu-Info.plist */,
-				0904A3E7182AF27A00FD9D5D /* Images.xcassets */,
-				0904A3D5182AF27A00FD9D5D /* InfoPlist.strings */,
-				0904A3D8182AF27A00FD9D5D /* main.m */,
-				0904A3DA182AF27A00FD9D5D /* loginMenu-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		0904A3F4182AF27A00FD9D5D /* loginMenuTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +171,22 @@
 				0904A3F7182AF27A00FD9D5D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		093A0CCA182FD9B700093ABD /* module */ = {
+			isa = PBXGroup;
+			children = (
+				093A0CDB182FD9DB00093ABD /* LOViewController.m */,
+				093A0CCF182FD9B700093ABD /* LOAppDelegate.h */,
+				093A0CD0182FD9B700093ABD /* LOAppDelegate.m */,
+				093A0CD1182FD9B700093ABD /* LOLoginVC.h */,
+				093A0CD2182FD9B700093ABD /* LOLoginVC.m */,
+				093A0CD3182FD9B700093ABD /* LORegisterVC.h */,
+				093A0CD4182FD9B700093ABD /* LORegisterVC.m */,
+				093A0CD5182FD9B700093ABD /* LOViewController.h */,
+			);
+			name = module;
+			path = loginMenu/module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,9 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0904A3E3182AF27A00FD9D5D /* Main_iPad.storyboard in Resources */,
-				0904A3E8182AF27A00FD9D5D /* Images.xcassets in Resources */,
 				0904A3E0182AF27A00FD9D5D /* Main_iPhone.storyboard in Resources */,
-				0904A3D7182AF27A00FD9D5D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,11 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0904A3D9182AF27A00FD9D5D /* main.m in Sources */,
-				0904A3DD182AF27A00FD9D5D /* LOAppDelegate.m in Sources */,
-				0904A3E6182AF27A00FD9D5D /* LOViewController.m in Sources */,
-				0904A41A182AFAB500FD9D5D /* LOLoginVC.m in Sources */,
-				0904A41D182AFC3B00FD9D5D /* LORegisterVC.m in Sources */,
+				093A0CE1182FDA9900093ABD /* main.m in Sources */,
+				093A0CDC182FD9DB00093ABD /* LOViewController.m in Sources */,
+				093A0CDA182FD9B700093ABD /* LORegisterVC.m in Sources */,
+				093A0CD9182FD9B700093ABD /* LOLoginVC.m in Sources */,
+				093A0CD8182FD9B700093ABD /* LOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,15 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0904A3D5182AF27A00FD9D5D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0904A3D6182AF27A00FD9D5D /* en */,
-				093A0CBF182FCE3000093ABD /* fr */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		0904A3DE182AF27A00FD9D5D /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
