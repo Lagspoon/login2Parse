@@ -28,7 +28,9 @@
     [PFUser logInWithUsernameInBackground:self.userTextField.text password:self.passwordTextField.text block:^(PFUser *user, NSError *error) {
         if (user) {
             //Open the wall
-            [self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
+            //[self performSegueWithIdentifier:@"LoginSuccesful" sender:self];
+#warning to complete the method below
+            //[self openTheNextVC:<#(UIViewController *)#> withIPadStoryboard:<#(NSString *)#> withIPhoneStoryboard:<#(NSString *)#> inBundle:<#(NSBundle *)#> witViewIdentifier:<#(NSString *)#>];
         } else {
             //Something bad has ocurred
             NSString *errorString = [[error userInfo] objectForKey:@"error"];
@@ -38,5 +40,15 @@
     }];
 }
 
+- (void) openTheNextVC:(UIViewController*)VC withIPadStoryboard:(NSString*)ipadStory withIPhoneStoryboard:(NSString*)iphoneStory inBundle:(NSBundle*)bundle witViewIdentifier:(NSString *)id {
+#define IPAD UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+    if (IPAD) {
+        VC = [[UIStoryboard storyboardWithName:ipadStory bundle:bundle] instantiateViewControllerWithIdentifier:id];
+    } else {
+        VC = [[UIStoryboard storyboardWithName:iphoneStory bundle:bundle] instantiateViewControllerWithIdentifier:id];
+    }
+    [self presentViewController:VC animated:YES completion:nil];
+    
+}
 
 @end
