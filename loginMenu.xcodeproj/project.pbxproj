@@ -24,14 +24,19 @@
 		0904A411182AF3C800FD9D5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A410182AF3C700FD9D5D /* QuartzCore.framework */; };
 		0904A413182AF3D000FD9D5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A412182AF3D000FD9D5D /* Security.framework */; };
 		0904A417182AF3E700FD9D5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */; };
+		091EA4981859F3F700827640 /* LOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EA4951859F3F700827640 /* LOAppDelegate.m */; };
+		091EA4991859F3F700827640 /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EA4961859F3F700827640 /* LOLoginVC.m */; };
+		091EA49A1859F3F700827640 /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 091EA4971859F3F700827640 /* LORegisterVC.m */; };
+		091EA4AC1859F42500827640 /* LO_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091EA49C1859F42500827640 /* LO_iPad.storyboard */; };
+		091EA4AD1859F42500827640 /* LO_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091EA49E1859F42500827640 /* LO_iPhone.storyboard */; };
+		091EA4AE1859F42500827640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4A11859F42500827640 /* InfoPlist.strings */; };
+		091EA4AF1859F42500827640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4A41859F42500827640 /* InfoPlist.strings */; };
+		091EA4B01859F42500827640 /* Main_iPad.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4A61859F42500827640 /* Main_iPad.strings */; };
+		091EA4B11859F42500827640 /* Main_iPhone.strings in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4A81859F42500827640 /* Main_iPhone.strings */; };
+		091EA4B21859F42500827640 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4AA1859F42500827640 /* Images.xcassets */; };
+		091EA4B31859F42500827640 /* loginMenu-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 091EA4AB1859F42500827640 /* loginMenu-Info.plist */; };
 		093A0CE1182FDA9900093ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CDF182FDA9900093ABD /* main.m */; };
-		093A0CEF182FE26600093ABD /* LOLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CE9182FE26600093ABD /* LOLoginVC.m */; };
-		093A0CF0182FE26600093ABD /* LORegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0CEB182FE26600093ABD /* LORegisterVC.m */; };
-		093A0CF7182FE3A500093ABD /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 093A0CF4182FE3A500093ABD /* Base.lproj */; };
-		093A0CF8182FE3A500093ABD /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 093A0CF5182FE3A500093ABD /* en.lproj */; };
-		093A0CF9182FE3A500093ABD /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 093A0CF6182FE3A500093ABD /* fr.lproj */; };
 		093A0CFF182FE56F00093ABD /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 093A0CFE182FE56F00093ABD /* Readme.txt */; };
-		093A0D2618300BAC00093ABD /* LOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A0D2518300BAC00093ABD /* LOAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,19 +68,24 @@
 		0904A410182AF3C700FD9D5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0904A412182AF3D000FD9D5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0904A416182AF3E700FD9D5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		091EA4921859F3F700827640 /* LOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOAppDelegate.h; path = loginMenu/LOAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		091EA4931859F3F700827640 /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOLoginVC.h; path = loginMenu/LOLoginVC.h; sourceTree = SOURCE_ROOT; };
+		091EA4941859F3F700827640 /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LORegisterVC.h; path = loginMenu/LORegisterVC.h; sourceTree = SOURCE_ROOT; };
+		091EA4951859F3F700827640 /* LOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOAppDelegate.m; path = loginMenu/LOAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		091EA4961859F3F700827640 /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOLoginVC.m; path = loginMenu/LOLoginVC.m; sourceTree = SOURCE_ROOT; };
+		091EA4971859F3F700827640 /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LORegisterVC.m; path = loginMenu/LORegisterVC.m; sourceTree = SOURCE_ROOT; };
+		091EA49D1859F42500827640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LO_iPad.storyboard; sourceTree = "<group>"; };
+		091EA49F1859F42500827640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LO_iPhone.storyboard; sourceTree = "<group>"; };
+		091EA4A21859F42500827640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		091EA4A51859F42500827640 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
+		091EA4A71859F42500827640 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Main_iPad.strings; sourceTree = "<group>"; };
+		091EA4A91859F42500827640 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Main_iPhone.strings; sourceTree = "<group>"; };
+		091EA4AA1859F42500827640 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = loginMenu/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		091EA4AB1859F42500827640 /* loginMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "loginMenu-Info.plist"; path = "loginMenu/loginMenu-Info.plist"; sourceTree = SOURCE_ROOT; };
 		093A0CC0182FCE3100093ABD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		093A0CDE182FDA9900093ABD /* loginMenu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "loginMenu-Prefix.pch"; path = "loginMenu/loginMenu-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		093A0CDF182FDA9900093ABD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = loginMenu/main.m; sourceTree = SOURCE_ROOT; };
-		093A0CE8182FE26600093ABD /* LOLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLoginVC.h; sourceTree = "<group>"; };
-		093A0CE9182FE26600093ABD /* LOLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLoginVC.m; sourceTree = "<group>"; };
-		093A0CEA182FE26600093ABD /* LORegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LORegisterVC.h; sourceTree = "<group>"; };
-		093A0CEB182FE26600093ABD /* LORegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LORegisterVC.m; sourceTree = "<group>"; };
-		093A0CF4182FE3A500093ABD /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
-		093A0CF5182FE3A500093ABD /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
-		093A0CF6182FE3A500093ABD /* fr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
 		093A0CFE182FE56F00093ABD /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
-		093A0D2418300BAC00093ABD /* LOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOAppDelegate.h; sourceTree = "<group>"; };
-		093A0D2518300BAC00093ABD /* LOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				093A0CFE182FE56F00093ABD /* Readme.txt */,
-				093A0CE5182FE26600093ABD /* loginParseModule */,
+				093A0CE5182FE26600093ABD /* loginParse */,
 				093A0CDE182FDA9900093ABD /* loginMenu-Prefix.pch */,
+				091EA4AB1859F42500827640 /* loginMenu-Info.plist */,
+				091EA4AA1859F42500827640 /* Images.xcassets */,
 				093A0CDF182FDA9900093ABD /* main.m */,
 				0904A3F4182AF27A00FD9D5D /* loginMenuTests */,
 				0904A3CB182AF27A00FD9D5D /* Frameworks */,
@@ -171,20 +183,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		093A0CE5182FE26600093ABD /* loginParseModule */ = {
+		091EA49B1859F42500827640 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				093A0D2418300BAC00093ABD /* LOAppDelegate.h */,
-				093A0D2518300BAC00093ABD /* LOAppDelegate.m */,
-				093A0CF4182FE3A500093ABD /* Base.lproj */,
-				093A0CF5182FE3A500093ABD /* en.lproj */,
-				093A0CF6182FE3A500093ABD /* fr.lproj */,
-				093A0CE8182FE26600093ABD /* LOLoginVC.h */,
-				093A0CE9182FE26600093ABD /* LOLoginVC.m */,
-				093A0CEA182FE26600093ABD /* LORegisterVC.h */,
-				093A0CEB182FE26600093ABD /* LORegisterVC.m */,
+				091EA49C1859F42500827640 /* LO_iPad.storyboard */,
+				091EA49E1859F42500827640 /* LO_iPhone.storyboard */,
 			);
-			name = loginParseModule;
+			name = Base.lproj;
+			path = loginMenu/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		091EA4A01859F42500827640 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				091EA4A11859F42500827640 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = loginMenu/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		091EA4A31859F42500827640 /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				091EA4A41859F42500827640 /* InfoPlist.strings */,
+				091EA4A61859F42500827640 /* Main_iPad.strings */,
+				091EA4A81859F42500827640 /* Main_iPhone.strings */,
+			);
+			name = fr.lproj;
+			path = loginMenu/fr.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		093A0CE5182FE26600093ABD /* loginParse */ = {
+			isa = PBXGroup;
+			children = (
+				091EA49B1859F42500827640 /* Base.lproj */,
+				091EA4A01859F42500827640 /* en.lproj */,
+				091EA4A31859F42500827640 /* fr.lproj */,
+				091EA4921859F3F700827640 /* LOAppDelegate.h */,
+				091EA4931859F3F700827640 /* LOLoginVC.h */,
+				091EA4941859F3F700827640 /* LORegisterVC.h */,
+				091EA4951859F3F700827640 /* LOAppDelegate.m */,
+				091EA4961859F3F700827640 /* LOLoginVC.m */,
+				091EA4971859F3F700827640 /* LORegisterVC.m */,
+			);
+			name = loginParse;
 			path = loginMenu/loginParseModule;
 			sourceTree = "<group>";
 		};
@@ -274,10 +316,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093A0CF8182FE3A500093ABD /* en.lproj in Resources */,
-				093A0CF7182FE3A500093ABD /* Base.lproj in Resources */,
+				091EA4B11859F42500827640 /* Main_iPhone.strings in Resources */,
+				091EA4B21859F42500827640 /* Images.xcassets in Resources */,
+				091EA4AD1859F42500827640 /* LO_iPhone.storyboard in Resources */,
+				091EA4B31859F42500827640 /* loginMenu-Info.plist in Resources */,
+				091EA4B01859F42500827640 /* Main_iPad.strings in Resources */,
+				091EA4AE1859F42500827640 /* InfoPlist.strings in Resources */,
 				093A0CFF182FE56F00093ABD /* Readme.txt in Resources */,
-				093A0CF9182FE3A500093ABD /* fr.lproj in Resources */,
+				091EA4AC1859F42500827640 /* LO_iPad.storyboard in Resources */,
+				091EA4AF1859F42500827640 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093A0CEF182FE26600093ABD /* LOLoginVC.m in Sources */,
-				093A0D2618300BAC00093ABD /* LOAppDelegate.m in Sources */,
+				091EA4991859F3F700827640 /* LOLoginVC.m in Sources */,
 				093A0CE1182FDA9900093ABD /* main.m in Sources */,
-				093A0CF0182FE26600093ABD /* LORegisterVC.m in Sources */,
+				091EA49A1859F3F700827640 /* LORegisterVC.m in Sources */,
+				091EA4981859F3F700827640 /* LOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +376,54 @@
 				093A0CC0182FCE3100093ABD /* fr */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091EA49C1859F42500827640 /* LO_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA49D1859F42500827640 /* Base */,
+			);
+			name = LO_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		091EA49E1859F42500827640 /* LO_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA49F1859F42500827640 /* Base */,
+			);
+			name = LO_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		091EA4A11859F42500827640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA4A21859F42500827640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091EA4A41859F42500827640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA4A51859F42500827640 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		091EA4A61859F42500827640 /* Main_iPad.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA4A71859F42500827640 /* fr */,
+			);
+			name = Main_iPad.strings;
+			sourceTree = "<group>";
+		};
+		091EA4A81859F42500827640 /* Main_iPhone.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091EA4A91859F42500827640 /* fr */,
+			);
+			name = Main_iPhone.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
